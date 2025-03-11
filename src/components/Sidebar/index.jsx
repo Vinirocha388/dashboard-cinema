@@ -3,7 +3,6 @@ import styles from './sidebar.module.css';
 
 const Sidebar = () => {
     return (
-        <div>
             <section className={styles.sidebar}>
         <div className={styles.sidebarHeader}>
           <h2>Menu</h2>
@@ -18,7 +17,6 @@ const Sidebar = () => {
           </ul>
         </div>
       </section>
-        </div>
     )
 
 }
