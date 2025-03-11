@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Dashboard cinema-React",
-  description: "Projeto de componentização de uma página em HTML e CSS para React usando Next.js",
+  description: "Projeto de gerenciamento de cinema",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
